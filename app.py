@@ -11,7 +11,7 @@ collection = db['Submissions']
 
 @app.route('/')
 def index():
-    return render_template('form.html')
+    return render_template('todo.html')
 
 @app.route('/submit', methods=['POST'])
 def submit():
